@@ -1,6 +1,19 @@
-import sys
+import glob, math, sys
 
-src_path = f"{sys.path[0]}/../src/" # TODO: update path depending on day generated
+src_path = f"{sys.path[0]}/../src/"
+
+day = 1
+
+try:
+    day = int(sorted(glob.glob(f"{src_path}day*"), reverse=True)[0][-1]) + 1
+
+    if math.isnan(day):
+        print("Day is not a number")
+        day = 1
+except:
+    day = 1
+
+day_name = f"day{day}"
 
 def create_function(name, item):
     f = open(f"{src_path}{name}.py", "w")
