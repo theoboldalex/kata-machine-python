@@ -1,4 +1,4 @@
-# Kata Machine Python
+# 🥷Kata Machine Python🐍
 
 This is a port of [ThePrimeagen](https://github.com/ThePrimeagen)'s Kata Machine repo used in his Front End Masters course.
 It contains a host of algorithm problems that in the original repo are written in Typescript. This repo simply converts the 
