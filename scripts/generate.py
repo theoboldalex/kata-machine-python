@@ -41,3 +41,5 @@ for ds in CONFIG["dsa"]:
         create_class(ds, item)
     else:
         create_function(ds, item)
+
+# TODO: How do we deal with running tests from root against correct day
