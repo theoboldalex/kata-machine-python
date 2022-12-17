@@ -3,7 +3,6 @@ CONFIG = {
         "LinearSearchList",
         "BinarySearchList",
         "TwoCrystalBalls",
-        "BubbleSort",
-        "ArrayList"
+        "BubbleSort"
     ]
 }
