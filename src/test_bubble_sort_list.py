@@ -5,7 +5,3 @@ def test_bubble_sort():
     bubble_sort(arr)
 
     assert arr == [3, 4, 7, 9, 42, 69, 420]
-
-
-
-
