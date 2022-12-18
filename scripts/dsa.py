@@ -40,5 +40,17 @@ DSA = {
         "fn_name": "quick_sort",
         "fn_args": "arr: list",
         "return_type": "None"
+    },
+    "DijkstraList": {
+        "type": "fn",
+        "fn_name": "dijkstra_list",
+        "fn_args": "source: int, sink: int, arr: weighted_adjacency_list",
+        "return_type": "list"
+    },
+    "PrimsList": {
+        "type": "fn",
+        "fn_name": "prims",
+        "fn_args": "list: weighted_adjacency_list",
+        "return_type": "Optional[weighted_adjacency_list]"
     }
 }
